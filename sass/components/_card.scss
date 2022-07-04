@@ -1,0 +1,26 @@
+.card {
+  margin: 20rem 0 10rem 0;
+  padding: 1.8rem;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+
+  @media only screen and (max-width: 30em) {
+    margin: 10rem auto;
+  }
+
+  &__img-box {
+    margin-bottom: 2rem;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  &__content {
+    text-align: center;
+    padding: 2rem;
+  }
+}

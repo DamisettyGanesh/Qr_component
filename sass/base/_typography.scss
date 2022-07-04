@@ -1,0 +1,16 @@
+body {
+  font-family: $font-primary;
+  line-height: 1.2;
+}
+
+.heading {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: $color-dark-blue;
+}
+
+.paragraph {
+  font-size: 1.3rem;
+  color: $color-grey-dark;
+}
